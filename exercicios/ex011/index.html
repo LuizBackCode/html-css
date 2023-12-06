@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou  simplesmente diminua o tamanho do seu navegador!
+    </p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio preload="metadata" loop controls>
+        <source src="midia/Mega Funk Lost (320 kbps).mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não consegue reproduzir audio!</p>
+        <a href="midia/Mega Funk Lost (320 kbps).mp3">Clique aqui para baixar o arquivo MP3</a>
+    </audio>
+    <h1>Reproduzindo vídeos hospedado localmente</h1>
+    <p>Vamos aprender a reproduzir vídeos localmente em HTML5</p>
+    <video width="560px" poster="Imagens/imagemthumb.jpg" controls loop>
+        <source src="midia/SnapInsta.io-MC GW MC ÍNDIA - BERIMBAU ESTIGANTE DJ GUILHERME.mp4" type="video/mp4"> 
+        <source src="midia/Meu-videoVK.mkv" type="video/mkv">
+        <source src="midia/Meu-videoWebM.webm" type="video/webm">
+        <p>Infelizmente seu navegador não conseguiu carregar o vídeo.</p>
+    </video>
+    <!--MPEG WEBM OGG-->
+    <h1>Reproduzindo vídeos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ta8xLiaVxhE?si=T_vsqJAI37tsDdtW" title="Funk bom" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+</body>
+</html>
