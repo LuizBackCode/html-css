@@ -4,4 +4,4 @@
  Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
  <a href="https://luizbackcode.github.io/html-css/exercicios/ex001/index.html
-">Executar exercício 001</a>
+" target="_blank">Executar exercício 001</a>
