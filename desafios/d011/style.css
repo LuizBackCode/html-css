@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body{
+   background: black url(espaco.jpg) no-repeat center center fixed;
+   background-size: cover;
+}
+
+main img{
+    margin: auto;
+    display: block;
+    max-width: 400px;
+    height: auto;
+    transform: translate(0%, 30%);
+}
+
