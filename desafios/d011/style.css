@@ -8,7 +8,7 @@ body{
 main img{
     margin: auto;
     display: block;
-    max-width: 400px;
+    max-width: 440px;
     height: auto;
     transform: translate(0%, 30%);
 }
