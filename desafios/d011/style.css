@@ -5,11 +5,7 @@ body{
    background-size: cover;
 }
 
-main img{
-    margin: auto;
-    display: block;
-    max-width: 440px;
-    height: auto;
-    transform: translate(0%, 30%);
+.centralizar{
+    text-align: center;
 }
 
